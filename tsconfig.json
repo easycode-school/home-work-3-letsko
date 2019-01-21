@@ -3,9 +3,11 @@
         "target": "ES2015",
         "module": "commonjs",
         "rootDir": "./src",
-        "outDir": "./build",
+        "outDir": "./dist/js",
         "watch": true,
         "noEmitOnError": true,
-        "esModuleInterop": true
+        "esModuleInterop": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true
     }
 }
